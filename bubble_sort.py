@@ -1,4 +1,7 @@
-
+# Best O(n)
+# Average O(n^2)
+# Worst O(n^2)
+# simple one but does not perform well
 def bubble_sort(input_list):
     list_length = len(input_list)
     iterations = 0
@@ -11,8 +14,6 @@ def bubble_sort(input_list):
         iterations += 1
         bubble_sort(input_list[:-iterations])
     return input_list
-
-
 
 
 if __name__ ==  '__main__':

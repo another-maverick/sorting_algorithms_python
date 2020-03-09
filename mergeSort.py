@@ -1,4 +1,10 @@
 # Working
+
+# Best O(nlongn)
+# Average O(nlogn)
+# Worst O(nlogn)
+# When n becomes very large, this performs the best.
+
 def mergeSort(myList):
     if len( myList ) > 1:
         mid = len( myList ) // 2

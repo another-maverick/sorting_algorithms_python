@@ -1,4 +1,7 @@
-
+# Best O(nlongn)
+# Average O(nlogn)
+# Worst O(n^2)
+# Good for short lists
 def partition(myArr, low, high):
 
     pivot = myArr[low]
